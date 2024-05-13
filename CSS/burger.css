@@ -1,5 +1,5 @@
 .burger {
-	width: 30px;
+  width: 30px;
 	height: 20px;
   border: 1px dashed orange;
 	position: relative;
@@ -34,6 +34,7 @@
 
 .burger span {
 	width: 100%;
+	display: block;
 	height: 2px;
 	background: orange;
 }
