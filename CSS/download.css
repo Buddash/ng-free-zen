@@ -1,0 +1,54 @@
+.download {
+  padding: 30px 15px;
+  border: 4px dashed red;
+}
+
+.download__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* border: 4px dashed orange; */
+}
+
+.download__text-block {
+  /* border: 2px dashed green; */
+}
+
+.download__title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.download__copy {
+  margin-top: 20px;
+}
+
+.download__links {
+  margin-top: 20px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+    /* border: 2px dashed blue; */
+}
+
+.download__link {
+  display: block;
+  width: 150px;
+  height: 44px;
+}
+
+.download__image-block {
+ height: 72vw;
+ border: 1px solid #aaa;
+ border-radius: 20px;
+ overflow: hidden;
+}
+
+.download__image-block {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+ }
+ 
+ 
