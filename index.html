@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ZEN</title>
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/header.css">
-    <link rel="stylesheet" href="CSS/menu.css">
-    <link rel="stylesheet" href="CSS/burger.css">
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/global.css" />
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/menu.css" />
+    <link rel="stylesheet" href="CSS/burger.css" />
   </head>
 
-  <body>
-    <!-- Шапка сайта -->
-    <header class="header">
+<body>
+    <!-- Шапка сайта-->
+    <header class="header" id="header">
       <div class="header__wrapper">
         <button class="header__logo" type="button" id="logo">
-          <img src="assets/icons/logo.svg" alt="ZEN">
+          <img src="assets/icons/logo.svg" alt="ZEN" />
         </button>
         <nav class="header__nav">
           <ul class="menu" id="menu">
@@ -44,8 +45,8 @@
         <div class="header__actions">
           <!-- Lang -->
           <label class="header__lang">
-            <img src="assets/icons/arrow.svg" alt="">
-            <select id="lang">
+            <img src="assets/icons/arrov.svg" alt="">            
+            <select  id="lang">
               <option value="en">EN</option>
               <option value="ru">RU</option>
             </select>
@@ -55,68 +56,67 @@
             <img src="assets/icons/moon.svg" alt="Moon">
           </button>
           <!-- Burger -->
-          <buttonc lass="header__burger" type="button" id="burger">
+          <button class="burger" type="button" id="burger">
             <span></span>
           </button>
         </div>
       </div>
     </header>
-    <!-- Секция 1 -->
+    <!-- Секция 1-->
     <section class="download" id="download">
       <div class="download__wrapper">
         <div class="download__text-block">
           <h1 class="download__title">Peaceful shopping mindful money</h1>
-          <p class="download__copy">See how we can help with making your shopping experience and money management more ZEN.</p>
-          <div class="download__links">
-            <a class="download__link" href="https://apple.com">
-              <img src="./assets/icons/apple.svg" alt="Apple icon">
-            </a>
-            <a class="download__link" href="https://google.com">
-              <img src="./assets/icons/google.svg" alt="Google icon">
-            </a>
-          </div>
+          <p class="download__copy"> See how we can help with making your shopping experience and money management more ZEN. </p>
+            <div class="download__links">
+                <a class="download__link" href="https://apple.com">
+                  <img src="./assets/icons/apple.svg" alt="AppleStore" />
+                </a>
+                <a class="download__link" href="https://google.com">
+                  <img src="./assets/icons/google.svg" alt="GooglePlay" />
+                </a>
+            </div>
         </div>
         <div class="download__image-block">
-          <img src="./assets/images/1.jpg" alt="Bag and device">
-        </div>
+          <img src="./assets/images/1.jpg" alt="Bag and device" />
       </div>
     </section>
-    <!-- Секция 2 -->
+    <!-- Секция 2-->
     <section class="warranty" id="warranty">
       <div class="warranty__wrapper">
         <div class="warranty__text-block">
           <h2 class="warranty__title">1-year warranty boost</h2>
           <p class="warranty__copy">ZEN cards have a very neat feature that will help you whenever your electronic devices start failing after the standard warranty ends, which is pretty common.</p>
           <p class="warranty__copy">When you buy any electronics with your ZEN shopping Mastercard, their warranty gets extended by one year. How does it work? It simply does. Automatically.</p>
-        </div> 
+        </div>
         <div class="warranty__image-block">
-          <img src="./assets/images/2.jpg" alt="Basket">
+          <img src="./assets/images/2.jpg" alt="Basket" />
         </div>
       </div>
     </section>
-    <!-- Секция 3 -->
+    <!-- Секция 3-->
     <section class="care" id="care">
-      <div class="care_care">
-        <div class="care">
+      <div class="care__wrapper">
+        <div class="care__text-block">
           <h2 class="care__title">ZEN Care</h2>
           <p class="care__copy">Shopping online is usually a delightful experience. Until it's not.</p>
           <p class="care__copy">Until something you buy, proves to be faulty, missing or a totally wrong item, you’re in for long product return procedures.</p>
           <p class="care__copy">But, here comes ZEN Care: a free, built-in shopping protection.</p>
-        </div> 
+        </div>
         <div class="care__image-block">
-          <img src="./assets/images/3.jpg" alt="Card">
+          <img src="./assets/images/3.jpg" alt="Card" />
         </div>
       </div>
     </section>
-    <!-- Секция 4 -->
+    <!-- Секция 4-->
     <section class="cashback" id="cashback">
       <div class="cashback__wrapper">
-        <div class="cashback">
+        <div class="cashback__text-block">
           <h2 class="cashback__title">and cashback!</h2>
           <p class="cashback__copy">It saves a little bit of money while you’re shopping, but in many cases it takes ages to get anything out of it.</p>
           <p class="cashback__copy">We gave it a thought and made cashback way more friendly.</p>
           <p class="cashback__copy">Up to 14% of what you spend using ZEN Mastercard ® will materialize on your account right after the purchase.</p>
-          <button class="cashback__button" type="button" id="order-open">Order a consultation</button>
+          <button class="cashback__button" type="button" id="order-open" a consultation></button>
         </div>
       </div>
     </section>
@@ -125,48 +125,48 @@
       <div class="clients__wrapper">
         <ul class="clients__brands">
           <!-- Brand 1 -->
-          <li class="clients__brands">
-            <img src="assets/brands/1.svg" alt="Brand 1">
+          <li class="clients__brand">
+            <img src="assets/brands/1.svg" alt="Brand 1" />
           </li>
           <!-- Brand 2 -->
-          <li class="clients__brands">
-            <img src="assets/brands/2.svg" alt="Brand 2">
+          <li class="clients__brand">
+            <img src="assets/brands/2.svg" alt="Brand 2" />
           </li>
           <!-- Brand 3 -->
-          <li class="clients__brands">
-            <img src="assets/brands/3.svg" alt="Brand 3">
+          <li class="clients__brand">
+            <img src="assets/brands/3.svg" alt="Brand 3" />
           </li>
           <!-- Brand 4 -->
-          <li class="clients__brands">
-            <img src="assets/brands/4.svg" alt="Brand 4">
+          <li class="clients__brand">
+            <img src="assets/brands/4.svg" alt="Brand 4" />
           </li>
           <!-- Brand 5 -->
-          <li class="clients__brands">
-            <img src="assets/brands/5.svg" alt="Brand 5">
+          <li class="clients__brand">
+            <img src="assets/brands/5.svg" alt="Brand 5" />
           </li>
           <!-- Brand 6 -->
-          <li class="clients__brands">
-            <img src="assets/brands/6.svg" alt="Brand 6">
+          <li class="clients__brand">
+            <img src="assets/brands/6.svg" alt="Brand 6" />
           </li>
-          <!-- Brand 7-->
-          <li class="clients__brands">
-            <img src="assets/brands/7.svg" alt="Brand 7">
+          <!-- Brand 7 -->
+          <li class="clients__brand">
+            <img src="assets/brands/7.svg" alt="Brand 7" />
           </li>
           <!-- Brand 8 -->
-          <li class="clients__brands">
-            <img src="assets/brands/8.svg" alt="Brand 8">
+          <li class="clients__brand">
+            <img src="assets/brands/8.svg" alt="Brand 8" />
           </li>
         </ul>
       </div>
     </section>
-    <!-- Подвал сайта -->
+    <!-- Подвал сайта-->
     <footer class="footer">
-      <!-- Column -->
-      <div class="footer__column">
+      <!-- Columns -->
+      <div class="footer__columns">
         <!-- Column 1 -->
         <div class="column">
-          <h3 class="column-title">Learn</h3>
-          <ul class="column-list">
+          <h3 class="column__title">Learn</h3>
+          <ul class="column__list">
             <!-- Item 1 -->
             <li class="column__item">
               <a href="https://example.com">Help center</a>
@@ -191,8 +191,8 @@
         </div>
         <!-- Column 2 -->
         <div class="column">
-          <h3 class="column-title">Discover</h3>
-          <ul class="column-list">
+          <h3 class="column__title">Discover</h3>
+          <ul class="column__list">
             <!-- Item 1 -->
             <li class="column__item">
               <a href="https://example.com">For developers</a>
@@ -209,8 +209,8 @@
         </div>
         <!-- Column 3 -->
         <div class="column">
-          <h3 class="column-title">Offer</h3>
-          <ul class="column-list">
+          <h3 class="column__title">Offer</h3>
+          <ul class="column__list">
             <!-- Item 1 -->
             <li class="column__item">
               <a href="https://example.com">Business</a>
@@ -223,8 +223,8 @@
         </div>
         <!-- Column 4 -->
         <div class="column">
-          <h3 class="column-title">Language</h3>
-          <ul class="column-list">
+          <h3 class="column__title">Language</h3>
+          <ul class="column__list">
             <!-- Item 1 -->
             <li class="column__item">
               <a href="https://example.com">English</a>
@@ -237,39 +237,39 @@
         </div>
         <!-- Column 5 -->
         <div class="column">
-          <h3 class="column-title">Follow us</h3>
-          <ul class="column-list">
+          <h3 class="column__title">Follow us</h3>
+          <ul class="column__list">
             <!-- Item 1 -->
             <li class="column__item">
-              <a href="https://example.com">
-                <img src="assets/icons/in.svg" alt="Linkedin">
-              </a>
-            </li>
+              <a href="https://example.com">English</a>
+              <img src="assets/icons/in.svg" alt="Linkedin">
+            </li>            
           </ul>
         </div>
         <!-- Column 6 -->
         <div class="column">
-          <h3 class="column-title">Contact</h3>
-          <ul class="column-list">
+          <h3 class="column__title">Follow us</h3>
+          <ul class="column__list">
             <!-- Item 1 -->
             <li class="column__item">
-              <a href="mailto:hello@zen.com">hello@zen.com</a>
-            </li>
+              <a herf="mailto:hello@zen.com">hello@zen.com</a>
+            </li>            
           </ul>
         </div>
       </div>
       <!-- Info -->
       <div class="footer__info">
-        <a class="footer__logo" href="https:/example.com">
+        <a class="footer__logo" href="https://example.com">
           <img src="assets/icons/logo2.svg" alt="logo">
         </a>
-        <p class="footer__info">ZEN is a licensed financial institution under the supervision of the Central Bank of Lithuania approved by European Banking Authority for 31 countries.</p>
-        <p class="footer__info">Registration number of the company 304749651, VAT ID LT100011714916.</p>
-        <p class="footer__info">License of electronic money institutions number LB000457.</p>
-        <p class="footer__info">Share capital 2.185.000,00 EUR.</p>
-        <p class="footer__info">Company address: Mėsinių g. 5, LT-01133, Vilnius, Lithuania.</p>
-        <p class="footer__info">Sales Office: ul. Emilii Plater 53, 00-113 Warsaw, Poland.</p>
-        <a class="footer__dev" href="http://example.com">
+        <p class="footer__copy">ZEN is a licensed financial institution under the supervision of the Central Bank of Lithuania approved by European Banking Authority for 31 countries.</p>
+        <p class="footer__copy">Registration number of the company 304749651, VAT ID LT100011714916</p>
+        <p class="footer__copy">License of electronic money institutions number LB000457.</p>
+        <p class="footer__copy">Share capital 2.185.000,00 EUR.</p>
+        <p class="footer__copy">Company address: Mėsinių g. 5, LT-01133, Vilnius, Lithuania.</p>
+        <p class="footer__copy">Sales Office: ul. Emilii Plater 53, 00-113 Warsaw, Poland.</p>
+        <p class="footer__copy">Sales Office: ul. Emilii Plater 53, 00-113 Warsaw, Poland.</p>
+        <a class="footer__copy" href="https://example.com">
           <img src="assets/icons/developer.svg" alt="Developer">
         </a>
       </div>
@@ -318,5 +318,5 @@
         </form>
       </div>
     </div>
-  </body>
+</body>
 </html>
