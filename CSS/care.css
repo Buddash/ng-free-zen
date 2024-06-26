@@ -1,0 +1,44 @@
+
+.care {
+  padding: 30px 15px;
+  border: 4px dashed red;
+}
+
+.care__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* border: 4px dashed orange; */
+}
+
+/* .download__text-block {
+  font-size: 14px;
+  font-weight: 400;
+} */
+
+.care__title {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.care__copy {
+  /* margin-top: 20px; */
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.care__image-block {
+  height: 72vw;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.care__image-block {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+ }
+ 
+
