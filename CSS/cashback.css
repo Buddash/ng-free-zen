@@ -1,0 +1,47 @@
+
+.cashback {
+  padding: 30px 15px;
+  border: 4px dashed red;
+}
+
+.cashback__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* border: 4px dashed orange; */
+}
+
+/* .download__text-block {
+  font-size: 14px;
+  font-weight: 400;
+} */
+
+.cashback__title {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cashback__copy {
+  /* margin-top: 20px; */
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.cashback__button {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+/* .cashback__image-block {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+ }
+  */
+
